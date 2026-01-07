@@ -1,0 +1,11 @@
+#drop1:hover #dropm1{
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+#drop2:hover #dropm2{
+    display: block;
+    margin-left: 0; 
+    margin-right: 50px;
+    /* remove the gap so it doesn't close */
+}
