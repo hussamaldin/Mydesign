@@ -7,3 +7,10 @@
     display: block;
     margin-left: 0; /* remove the gap so it doesn't close */
 }
+.nav-link:hover{
+color: blue;
+}
+#dropmenu1:hover{
+    color: blue;
+}
+
