@@ -5,7 +5,5 @@
 
 #drop2:hover #dropm2{
     display: block;
-    margin-left: 0; 
-    margin-right: 50px;
-    /* remove the gap so it doesn't close */
+    margin-left: 0; /* remove the gap so it doesn't close */
 }
