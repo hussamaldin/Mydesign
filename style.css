@@ -1,3 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+.navbar{
+    padding: 20px 0;
+}
+.myname{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
 #drop1:hover #dropm1{
     display: block;
     margin-top: 0; /* remove the gap so it doesn't close */
@@ -14,3 +24,96 @@ color: blue;
     color: blue;
 }
 
+#headingtext{
+    font-size: 68px;
+    max-width: 760px;
+}
+.description{
+    line-height: 30px;
+    font-size: 16px;
+    max-width: 560px;
+    color:gray;
+}
+#gets{
+    transition: all 0.5s ease;
+}
+#gets:hover{
+box-shadow: 2px 2px 5px blue;
+ transform: translateY(-3px);
+}
+#view{
+    border: 2px solid gray;
+    transition: all 0.5s ease;
+}
+#view:hover{
+    border: 2px solid blue;
+    color: blue;
+    transform: translateY(-3px);
+}
+
+#spaw{
+    color: black;
+}
+.headera{
+    
+    max-width: 200px;
+}
+.headerb{
+    margin-bottom: 60px;
+}
+.tro{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.torphy1{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding:15px;
+}
+.torphy-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(117, 102, 185);
+    
+}
+.award-item1{
+font-size: 26px;
+display: block;
+}
+.award-item2{
+font-size: 15px;
+display: block;
+}
+.award{
+    width: 100px;
+    height: 60px;
+}
+.bi-trophy{
+    font-size: 20px;
+    color: blue;
+}
+.mimg{
+    position: relative;
+}
+.simg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img2{
+    width:100%;
+}
+.img3{
+    width: 100%;
+}
+.seintro-h{
+    background-color: rgb(117, 102, 185);
+    color: blue;
+    border-radius: 4px;
+    font-weight: 400;
+}
