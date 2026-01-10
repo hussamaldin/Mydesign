@@ -94,12 +94,23 @@ display: block;
     width: 100px;
     height: 60px;
 }
+.About{
+margin-bottom: 100px;
+}
 .bi-trophy{
     font-size: 20px;
     color: blue;
 }
 .mimg{
     position: relative;
+    
+}
+.mimgm{
+    position: relative;
+    width: 100%;
+}
+.whoabout{
+    padding-left: 40px;
 }
 .simg{
     display: grid;
@@ -111,9 +122,204 @@ display: block;
 .img3{
     width: 100%;
 }
+.semid{
+    margin-bottom: 40px;
+}
+.selast{
+    margin-bottom: 40px;
+}
 .seintro-h{
-    background-color: rgb(117, 102, 185);
+    background-color: color-mix(in srgb, blue, transparent 90%);
     color: blue;
     border-radius: 4px;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+.semid-p{
+color: gray;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+.selast1{
+display: flex;
+
+
+}
+.selast-bi{
+   background-color:  color-mix(in srgb, blue, transparent 90%);
+   color: blue;
+    width: 100px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selast2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.learnb{
+    width: 230px;
+    color: white;
+    background-color: blue;
+    opacity: 90%;
+    transition: all 0.5s ease;
+}
+.learnb:hover{
+    color: white;
+    transform: translateY(-2px);
+    background-color: blue;
+    opacity: 100%;
+}
+.metrix{
+padding-bottom: 50px;
+padding-top: 50px;  
+border: 1px solid gray;
+border-radius: 10px;
+     
+}
+.metrix1{
+    display: flex;
+
+}
+.metrixc{
+    width: 25%;
+}
+.metrixh{
+    font-size: 40px;
+    color: blue;
+    font-weight: 700;
+}
+.metrixp{
+    color: gray;
+}
+.title{
+text-align: center;
+margin-bottom: 100px;
+}
+.ser{
+    display: flex;
+    width: 50%;
+    transition: all 0.5s ease;
+}
+.ser:hover{
+transform: translateY(-3px);
+}
+.ser:hover .serfi .bi-rocket-takeoff{
+transform: scale(1.1);
+}
+.serh{
+text-align: center;
+padding-bottom: 20px;
+color: blue;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 40px;
+}
+.serp{
+    text-align: center;
+    color: gray;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.serf{
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+.serft{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: -10px;
+    transform: translateY(-10px);
+
+}
+.serb{
+    display: flex;
+    width: 50%;
+}
+.serfi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    
+}
+.bi-rocket-takeoff{
+    color: white;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    background-color: blue;
+    border-radius: 30%;
+    transition: all 0.5s ease;
+}
+.serfe{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.h1s{
+    margin-bottom: 20px;
+}
+.p1s{
+    margin-bottom: 20px;
+}
+.serfe1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.bi-check-circle-fill{
+    color: blue;
+    font-size: 16px;
+}
+.btng{
+    transition: all 0.5s ease;
+}
+.btng:hover{
+box-shadow: 2px 2px 5px blue;
+ transform: translateY(-3px);
+}
+.serff{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+.serb{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    transition: all 0.5s ease;
+}
+.serfff{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    background-color:color-mix(in srgb, blue, transparent 90%) ;
+}
+.bi-shield-check{
+    font-size: 35px;
+    color: blue;
 }
