@@ -443,3 +443,127 @@ color: white;
     font-weight: 400;
     color: blue;
 }
+.fheader{
+    margin-bottom: 60px; 
+    text-align: center; 
+}
+.hfe{
+    text-align: center;
+    color: blue;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.hfe::after{
+     content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  width: 50%; /* Line spans the full width of the word */
+  height: 1px; /* Thickness of the line */
+  background-color: blue; /* Color of the line */
+  bottom: -5px; /* Adjust this value to set the offset from the text */
+  left: 25%;
+}
+.fcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.fcon1{
+    width: 50%;
+    padding: 5px;
+}
+.fcon2{
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+    text-align: start;
+}
+.fcimg{
+    width: 100%;
+}
+.fimg{
+    width: 100%;
+}
+.fcp{
+    font-size: 18px;
+    line-height: 1.7;
+    color: gray;
+}
+.fwrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    gap: 40px;
+}
+.fwrapc{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.fwrapi{
+    width: 167px;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.fwrapii{
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.fwrapi:hover{
+    transform: scale(1.1);
+}
+.fwp{
+    color: gray;
+    line-height: 1.7;
+}
+.fw1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.fwc{
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.fwc:hover{
+    border-color: blue;
+}
+.fwci{
+    width: 95px;
+    height: 55px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.fwcii{
+    font-weight: 300;
+    font-size: 30px;
+    color: blue;
+}
+.fwcb{
+    display: flex;
+    gap: 25px;
+}
+.fsp{
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: blue;
+    background-color: #ccc;
+}
