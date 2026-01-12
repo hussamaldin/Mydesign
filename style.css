@@ -528,7 +528,7 @@ color: white;
 .fw1{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .fwc{
     padding: 15px;
@@ -566,4 +566,272 @@ color: white;
     border-radius: 20px;
     color: blue;
     background-color: #ccc;
+}
+.fwcl{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fwcl1{
+width: 200px;
+height: 50px;
+background-color: blue;
+border: 1px solid transparent;
+color: white;
+border-radius: 50px;
+transition: all 0.5s ease;
+}
+.fwcl1:hover{
+    transform: translateY(-3px);
+    box-shadow: 10px 10px;
+    
+}
+.fwcl2{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.fwcl2:hover{
+    border: 1px solid blue;
+    color: blue;
+    transform: translateY(-3px);
+}
+.testimonials{
+    margin-bottom: 100px;
+}
+.testh{
+    margin-bottom: 60px; 
+    text-align: center; 
+
+}
+.the{
+    text-align: center;
+    color: blue;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+.the::after{
+     content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  width: 50%; /* Line spans the full width of the word */
+  height: 1px; /* Thickness of the line */
+  background-color: blue; /* Color of the line */
+  bottom: -5px; /* Adjust this value to set the offset from the text */
+  left: 25%;
+}
+.testc{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 0px;
+    gap: 30px;
+}
+.testci{
+    margin-bottom: 20px;
+}
+.testc1{
+    
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgb(248, 241, 241);
+    position: relative;
+    transition: all 0.5s ease;
+    background-color: white;
+    
+}
+#testc1{
+    background-color: transparent;
+    border: 2px solid rgb(206, 196, 196);
+}
+.totest{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+    font-weight: 600;
+    top: -10px;
+    right: 30px;
+}
+.testcb{
+    font-style: italic;
+    color: gray;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.testcb::before{
+    content: '"';
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 4rem;
+    color: rgb(206, 202, 202);
+    font-family: Georgia, serif;
+    
+}
+.testci i{
+    color: yellow;
+}
+.testlast{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid rgb(224, 213, 213);
+    padding-top: 20px;
+}
+.testc1:hover{
+    box-shadow: 5px 8px 8px 5px  rgb(226, 221, 221);
+}
+.testlasti{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid blue;
+}
+.testlastii{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testlastp{
+color: blue;
+}
+.testlastd{
+    color: gray;
+}
+.pric1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-bottom: 90px;
+    
+}
+.pricc{
+    text-align: center;
+    border: 1px solid rgb(230, 222, 222);
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.pricc:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px rgb(231, 226, 226);
+}
+.prici{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #b6a9a9;
+    color: blue;
+    font-size: 30px;
+}
+.priche{
+    text-align: center;
+}
+.priche1{
+    display: flex;
+    justify-content: center;
+}
+.pricecc{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.pricel{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ppl1{
+    vertical-align: top;
+}
+.ppl2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.ppl3{
+    font-size: 20px;
+}
+.pricr{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+
+}
+.pricrr{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.pricelast{
+    text-align: center;
+}
+.pricelast1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(221, 215, 215);
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    transition: all 0.5s ease;
+}
+.pricelast1:hover{
+    background-color: #ccc;
+}
+.bi-check-circle-fill{
+    color: blue;
+}
+.bi-x-circle-fill{
+    color: #ccc;
+}
+#prbb{
+    border: 1px solid blue;
+}
+.sell{
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.sell1{
+    display: flex;
+    gap: 20px;
+}
+.selli{
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+.bi-patch-question{
+    color: blue;
+    font-size: 30px;
+}
+.contactm{
+    display: flex;
+}
+.con1{
+    width: 50%;
+    background-color: blue;
+    height: 100%;
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.con1{
+padding: 20px;
 }
