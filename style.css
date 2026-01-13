@@ -732,7 +732,8 @@ color: blue;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #b6a9a9;
+        background: 
+ color-mix(in srgb, #ffffff, transparent 80%);
     color: blue;
     font-size: 30px;
 }
@@ -833,5 +834,151 @@ color: blue;
     overflow: hidden;
 }
 .con1{
-padding: 20px;
+padding: 30px;
+}
+.con111{
+color: white;
+}
+.con1111{
+    color: rgb(216, 205, 205);
+    font-size: 18px ;
+}
+.con1c{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: 
+ color-mix(in srgb, #ffffff, transparent 80%);
+    padding: 20px;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+.con1c:hover{
+        background: 
+ color-mix(in srgb, #ffffff, transparent 50%);
+}
+.concc{
+    color: white;
+}
+.con1ci{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.concii{
+font-size: 30px;
+font-weight: 300px;
+color: blue;
+}
+.con2{
+    width: 50%;
+    padding: 45px;
+    background-color: white;
+}
+.formg{
+    margin-bottom: 30px;
+}
+.headform{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.headform::after{
+     content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  width: 50%; /* Line spans the full width of the word */
+  height: 1px; /* Thickness of the line */
+  background-color: blue; /* Color of the line */
+  bottom: -5px; /* Adjust this value to set the offset from the text */
+  left: 1px;
+}
+.form-control{
+    padding: 18px 25px;
+    width: 85%;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.conlas{
+    border-top: 1px solid gray;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.conlasi{
+display: flex;
+gap: 30px;
+}
+.conlash{
+    color: white;
+    margin-bottom: 20px;
+}
+.conlashc{
+    display: flex;
+    gap: 20px;
+}
+.conlast{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+        background: 
+ color-mix(in srgb, #ffffff, transparent 80%);
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.conlst:hover{
+    transform: translateY(-4px);
+    background-color: white;
+    color: blue;
+}
+.conlasti{
+    color: white;
+    font-size: 18px;
+    font-weight: 200px;
+}
+.submit{
+    display: inline-flex;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px
+}
+.footer{
+    padding-top: 100px;
+    border-top: 1px solid gray;
+}
+.foot1{
+    padding: 1px 10px;
+}
+.foota{
+    font-size: 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
+.footp{
+    margin-top: 20px;
+}
+.footlast{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footi{
+    display: inline-flex;
+    gap: 10px;
+
 }
