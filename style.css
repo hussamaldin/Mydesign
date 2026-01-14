@@ -1,8 +1,14 @@
 body{
-    background-color: aliceblue;
+    background-color: #ffffff;
 }
 .navbar{
     padding: 20px 0;
+        position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
 }
 .myname{
     padding-top: 150px;
@@ -12,8 +18,26 @@ body{
     display: block;
     margin-top: 0; /* remove the gap so it doesn't close */
 }
+#drop2{
+    position: relative;
+}
+.drop2{
+    transition: all 0.5s ease;
+}
+#dropm2{
+    visibility: hidden;
+    position: absolute;
+    left: -150px;
+    top: 1px;
+    transition: all 0.5s ease;
+    z-index: 99;
+}
+
 
 #drop2:hover #dropm2{
+    visibility: visible;
+    left: -178px;
+    top: 1px;
     display: block;
     margin-left: 0; /* remove the gap so it doesn't close */
 }
@@ -54,9 +78,20 @@ box-shadow: 2px 2px 5px blue;
 #spaw{
     color: black;
 }
+.firsts{
+    color: yellow;
+}
 .headera{
+    width: 230px;
+    display: inline-flex;
+    gap: 4px;
+    background-color: white;
+    padding: 8px 20px;
+        box-shadow: 0 4px 20px 
+ color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid gray;
+    border-radius: 10px;
     
-    max-width: 200px;
 }
 .headerb{
     margin-bottom: 60px;
@@ -79,7 +114,7 @@ box-shadow: 2px 2px 5px blue;
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: rgb(117, 102, 185);
+    background-color: #ccc;
     
 }
 .award-item1{
@@ -958,6 +993,9 @@ gap: 30px;
     padding-top: 100px;
     border-top: 1px solid gray;
 }
+.foot{
+    padding-bottom: 70px;
+}
 .foot1{
     padding: 1px 10px;
 }
@@ -980,5 +1018,119 @@ gap: 30px;
 .footi{
     display: inline-flex;
     gap: 10px;
+    margin-bottom: 20px;
 
+}
+.foot22{
+    padding-left: 60px;
+}
+.footp{
+    color: gray;
+    margin-bottom: 35px;
+}
+.footsp{
+    color: gray;
+}
+.footnavc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.afoo{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+.afoo:hover{
+    color: blue;
+    transform: translateX(4px);
+}
+.footermid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 50px 0;
+    border-bottom: 1px solid gray;
+}
+.footermid2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.footermid22{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+.footermidi{
+    color: gray;
+    transition: all 0.5s ease;
+}
+.footermids{
+    color: gray;
+    transition: all 0.5s ease;
+}
+.footermid22:hover .footermidi{
+    color: blue;
+    transform: scale(1.1);
+}
+.footermid22:hover .footermids{
+    color: blue;
+}
+.footermid22:hover{
+    transform: translateY(-3px);
+}
+
+.footerbottom{
+    padding: 25px 0;
+}
+.footerboot{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerbootp{
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+.sitenb{
+    font-weight: 400;
+    color: #242859;
+}
+.lastb{
+    display: flex;
+    gap: 20px;
+}
+.lass{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lastb a{
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+.lastb a:hover{
+    color: blue;
+}
+.lastbb{
+    border-left: 1px solid gray;
+    font-size: 13px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+.lasta{
+    text-decoration: none;
+    font-size: 13px;
+    color: blue;
+}
+.lasta:hover{
+    text-decoration: underline;
 }
