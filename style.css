@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
     background-color: #ffffff;
 }
@@ -10,8 +13,19 @@ body{
     background-color: #ffffff;
     z-index: 999;
 }
+@media only screen and (max-width: 790px) {
+  .navmain {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+}
+.coll{
+    visibility: hidden;
+}
+}
 .myname{
-    padding-top: 150px;
+    padding-top: 220px;
     padding-bottom: 100px;
 }
 #drop1:hover #dropm1{
@@ -92,6 +106,13 @@ box-shadow: 2px 2px 5px blue;
   border: 1px solid gray;
     border-radius: 10px;
     
+    
+}
+.aos-a{
+    opacity: 0;
+}
+.is-visible{
+    opacity: 1;
 }
 .headerb{
     margin-bottom: 60px;
@@ -146,6 +167,7 @@ margin-bottom: 100px;
 }
 .whoabout{
     padding-left: 40px;
+    
 }
 .simg{
     display: grid;

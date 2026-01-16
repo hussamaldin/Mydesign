@@ -1,8 +1,54 @@
+let fadeleft=document.getElementsByClassName("ani-fadeleft");
+let faderight=document.getElementsByClassName("ani-faderight");
+let fadeup=document.getElementsByClassName("ani-fadeup");
+let zoomin=document.getElementsByClassName("ani-zoomin");
+let fadenow=document.getElementsByClassName("ani-fadenow");
+var y;
+window.addEventListener('scroll', () => {
+
+  for (y = 0; y < fadeleft.length; y++) {
+    let placeitem=fadeleft[y].getBoundingClientRect().top;
+     if (placeitem<= 400) {
+      fadeleft[y].classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__fast") 
+    fadeleft[y].classList.add("is-visible");
+  }
+  }
+    for (y = 0; y < faderight.length; y++) {
+    let placeitem=faderight[y].getBoundingClientRect().top;
+     if (placeitem<= 400) {
+      faderight[y].classList.add("animate__animated" ,"animate__fadeInRight" ,"animate__fast") 
+    faderight[y].classList.add("is-visible");
+  }
+  }
+      for (y = 0; y < fadeup.length; y++) {
+    let placeitem=fadeup[y].getBoundingClientRect().top;
+     if (placeitem<= 400) {
+      fadeup[y].classList.add("animate__animated" ,"animate__fadeInUp" ,"animate__fast") 
+    fadeup[y].classList.add("is-visible");
+  }
+  }
+      for (y = 0; y < zoomin.length; y++) {
+    let placeitem=zoomin[y].getBoundingClientRect().top;
+     if (placeitem<= 400) {
+      zoomin[y].classList.add("animate__animated" ,"animate__zoomIn" ,"animate__fast") 
+    zoomin[y].classList.add("is-visible");
+  }
+  }
+ 
+});
+
   document.addEventListener('DOMContentLoaded', (event) => {
     // Select the element by its ID
     const paragraphElement1 = document.getElementsByClassName("tablinks");
     const paragraphElement = document.getElementsByClassName("tabcontent");
       var i, tabcontent, tablinks;
+          for (y = 0; y < fadenow.length; y++) {
+    let placeitem=fadenow[y].getBoundingClientRect().top;
+     if (placeitem<= 900) {
+      fadenow[y].classList.add("animate__animated" ,"animate__fadeInUp" ,"animate__fast") 
+    fadenow[y].classList.add("is-visible");
+  }
+}
 
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
