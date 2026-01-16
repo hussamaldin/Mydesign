@@ -4,24 +4,91 @@
 body{
     background-color: #ffffff;
 }
+.navname{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.butnav:hover{
+    background-color: rgb(30, 30, 223);
+}
 .navbar{
+    display: flex;
     padding: 20px 0;
-        position: fixed;
+     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     background-color: #ffffff;
     z-index: 999;
 }
-@media only screen and (max-width: 790px) {
-  .navmain {
+.butnav{
+    border:none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.navmain{
+    display:flex;
+    gap: 30px;
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 20px 10px;
+}
+.navmainh{
+
+}
+.navmainc{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     padding: 0;
+    gap: 30px;
 }
 .coll{
-    visibility: hidden;
+    padding: 0;
+}
+.clickh{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .navmainh{
+        position: fixed;
+        overflow: hidden;
+        inset: 0;
+        background: rgba(33, 37, 41, 0.8);
+        transition: 0.3s;
+    
+}
+.clickh{
+    display: block;
+}
+.navmainc{
+    
+    flex-direction: column;
+position: absolute;
+inset: 30px 20px 20px 20px;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    overflow-y: auto;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+.nav-link{
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.coll{
+    display: none;
 }
 }
 .myname{
@@ -54,6 +121,20 @@ body{
     top: 1px;
     display: block;
     margin-left: 0; /* remove the gap so it doesn't close */
+}
+.navbar-nav{
+    display: flex;
+    
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: gray;
+    font-size:20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-link:hover{
 color: blue;
