@@ -3,6 +3,7 @@
 }
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 .navname{
     text-decoration: none;
@@ -16,7 +17,7 @@ body{
 .navbar{
     display: flex;
     padding: 20px 0;
-     position: fixed;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -57,8 +58,14 @@ body{
 .clickh{
     display: none;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
+    .navmain{
+    display:flex;
+    align-items: center; 
+    
+}
     .navmainh{
+        display: none;
         position: fixed;
         overflow: hidden;
         inset: 0;
@@ -68,6 +75,15 @@ body{
 }
 .clickh{
     display: block;
+}
+.clickh.active{
+    z-index: 9999;
+    color: black;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 30px;
+    cursor:pointer;
 }
 .navmainc{
     
@@ -80,15 +96,73 @@ inset: 30px 20px 20px 20px;
     position: absolute;
     overflow-y: auto;
     margin: 0;
-    padding: 20px 0;
     background-color: #ffffff;
 }
+.butnav{
+    margin-left: auto;
+}
 .nav-link{
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 17px;
 }
 .coll{
     display: none;
+}
+.pric1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+    
+}
+.pricc{
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.testc .testc1{
+width: 49%;
+margin: 2px;
+}
+.fwc{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fcon{
+    flex-direction: column;
+}
+.fcon .fcon1{
+    width: 100%;
+}
+.fcon .fcon2{
+    width: 100%;
+    text-align: center;
+
+}
+.serr{
+    display: flex;
+    flex-direction: column;
+    
+}
+.serr .ser{
+    width: 100%;
+}
+.serr .serb{
+    width: 100%;
+    margin: auto;
+
+}
+.serff{
+    margin: auto;
+}
+.tab{
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+}
+.tab .tablinks{
+    width: 100%;
 }
 }
 .myname{
@@ -485,11 +559,11 @@ box-shadow: 2px 2px 5px blue;
 /* Style the tab */
 .tab {
     display: flex;
-  overflow: hidden;
+
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 350px;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -763,22 +837,23 @@ transition: all 0.5s ease;
   left: 25%;
 }
 .testc{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-wrap: wrap;
     padding: 30px 0px;
-    gap: 30px;
+    
 }
 .testci{
     margin-bottom: 20px;
 }
 .testc1{
-    
+    width: 32%;
     border-radius: 20px;
     padding: 40px;
     border: 1px solid rgb(248, 241, 241);
     position: relative;
     transition: all 0.5s ease;
     background-color: white;
+    margin-left: auto;
     
 }
 #testc1{
@@ -847,9 +922,10 @@ color: blue;
     color: gray;
 }
 .pric1{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
     margin-bottom: 90px;
     
 }

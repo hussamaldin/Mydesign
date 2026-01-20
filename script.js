@@ -3,6 +3,7 @@ let faderight=document.getElementsByClassName("ani-faderight");
 let fadeup=document.getElementsByClassName("ani-fadeup");
 let zoomin=document.getElementsByClassName("ani-zoomin");
 let fadenow=document.getElementsByClassName("ani-fadenow");
+let clickh=document.getElementsByClassName("clickh")[0];
 var y;
 window.addEventListener('scroll', () => {
 
@@ -68,6 +69,24 @@ window.addEventListener('scroll', () => {
     // Add the 'highlight' class to the element
     
   });
+ clickh.addEventListener('click', () => {
+    // Toggle the 'is-open' class on both the button and the menu
+    const navmainh=document.getElementsByClassName("navmainh")[0];
+    if (clickh.classList.contains("active")) {
+
+        navmainh.style.display="none";
+    clickh.classList.remove("bi-x");
+    clickh.classList.add("bi-list");
+    clickh.classList.remove("active");
+    }
+    else{
+    navmainh.style.display="block";
+    clickh.classList.remove("bi-list");
+    clickh.classList.add("bi-x");
+    clickh.className += " active";
+    }
+      });
+
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent2,tabcontent3;
