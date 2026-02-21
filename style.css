@@ -40,9 +40,6 @@ body{
     border: 1px solid gray;
     padding: 20px 10px;
 }
-.navmainh{
-
-}
 .navmainc{
     display: flex;
     list-style: none;
@@ -163,6 +160,38 @@ margin: 2px;
 }
 .tab .tablinks{
     width: 100%;
+}
+.contactm{
+    flex-direction: column;
+    
+}
+.contactm .con1{
+    width: 100%;
+}
+.contactm .con2{
+    width: 100%;
+}
+.footp{
+    text-align: center;
+}
+.footi{
+    justify-content: center;
+}
+.footll{
+    width: 49%;
+    margin-bottom: 30px;
+}
+.footermid1{
+    text-align: center;
+}
+.footermid .footermid2{
+    justify-content: flex-start;
+}
+.footerboot{
+    text-align: center;
+}
+.footerboot .lass{
+    justify-content: center;
 }
 }
 .myname{
