@@ -55,11 +55,274 @@ body{
 .clickh{
     display: none;
 }
+@media only screen and (max-width:576px) {
+    .navname{
+        font-size: 18px;
+
+    }
+    .navmain{
+        padding: 8px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .butnav{
+        padding: 6px;
+        font-size: 14px;
+    }
+    .headera{
+        margin-bottom: 32px;
+    }
+    #spaw {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 16px;
+}
+.mainh #headingtext {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.mainh .description{
+    margin-bottom: 32px;
+}
+.headerb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gets{
+    width: 42%;
+    padding: 16px 30px;
+    margin-bottom: 12px;
+}
+#view{
+    padding: 14px 32px;
+    width: 38%;
+    font-weight: 500;
+}
+.tro{
+    flex-direction: column;
+    align-items: center;
+}
+.tro .torphy1{
+    background-color: #f0e8e8;
+}
+.pic{
+    margin-bottom: 48px;
+}
+.seintro .seintro-h{
+    width: 140px;
+    padding: 8px 20px;
+    font-weight: 700;
+}
+.semid .semid-p{
+    line-height: 1.7;
+  
+}
+.Strategic{
+    font-size: 18px;
+}
+.selast1 .selast-bi{
+    height: 44px;
+}
+.semid-p{
+    font-size: 14px;
+}
+.selast .selast2{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+}
+.About .metrix{
+    border: none;
+}
+.metrix1{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.metrix1 .metrixc{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.metrixc .metrixh{
+    font-size: 32px;
+}
+.mertixp{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+.title .serh{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.title .serp{
+        font-size: 1rem;
+    line-height: 1.8;
+    text-wrap: balance;
+}
+.serf .serft{
+    left: 35%;
+}
+.serfi .bi-rocket-takeoff{
+        width: 70px;
+    height: 61px;
+    font-size: 38px;
+}
+.serb{
+    flex-direction: column;
+}
+.serb .serff{
+    width: 100%;
+    text-align: left;
+}
+.serff .serfff{
+    margin-top: 4px;
+    margin-bottom: 24px;
+    border-radius: 13px;
+}
+.serfff .bi-shield-check{
+    font-size: 30px;
+}
+.serff .p1s{
+    color: gray;
+}
+.hh1{
+    margin-bottom: 20px;
+}
+.Service .tab{
+    width: 330px;
+    border-radius: 29px;
+}
+.tabc{
+    flex-direction: column;
+}
+
+.tabc .tabc1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tabch .bihed{
+    width: 60px;
+    height: 60px;
+}
+.bihed .hedset{
+    font-size: 38px;
+}
+.fheader .hfe{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+.phe{
+    font-size: 16px;
+    text-wrap: balance;
+}
+.fcon2c h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.fwrapc .fwrapi {
+    width: 95px;
+    height: 48px;
+}
+.fwrapc h3{
+font-size: 20px;
+}
+.fwrapc .fwp{
+    font-size: 15px;
+    line-height: 1.6;
+}
+.fw1{
+    flex-direction: column;
+
+}
+.fw1 .fwc{
+    width: 100%;
+}
+.fwc .fwci{
+    width: 60px;
+    height: 48px;
+}
+.f11{
+    text-align: center;
+}
+.f11 h3{
+    font-size: 18px;
+    
+}
+.f11 p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.fwcb .fsp{
+    font-size: 14px;
+}
+.fwcl{
+    flex-direction: column;
+}
+.fwcl .fwcl1{
+    width: 100%;
+}
+.fwcl .fwcl2{
+    width: 100%;
+}
+.testh .the{
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.testh .tpe{
+    text-wrap: balance;
+}
+.testc{
+    flex-direction: column;
+}
+.testimonials .testc .testc1{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.testc1 .testcb{
+font-size: 15px;
+}
+.testlastc .testlasth{
+    font-size: 15px;
+}
+.pricc{
+    width: 95%;
+}
+.pricrr span{
+    font-size: 15px;
+}
+.priclast .pricelast1{
+    width: 100%;
+}
+.sell1 .selli{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.selli .bi-patch-question{
+    font-size: 18px;
+}
+.footlast{
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.lastbb{
+    display: none;
+}
+    .footermid .footermid2 {
+        justify-content: center;
+        gap: 32px;
+    }
+}
 @media only screen and (max-width: 992px) {
     .navmain{
     display:flex;
     align-items: center; 
-    
 }
     .navmainh{
         display: none;
@@ -533,6 +796,8 @@ font-size: 40px;
 }
 .btng{
     transition: all 0.5s ease;
+    background-color: blue;
+    color: white;
 }
 .btng:hover{
 box-shadow: 2px 2px 5px blue;
@@ -578,6 +843,7 @@ box-shadow: 2px 2px 5px blue;
     font-size: 15px;
     font-weight: 500;
     transition: all 0.5s ease;
+    color: blue;
 }
 #hh1{
     transition: all 0.5s ease;
@@ -976,7 +1242,7 @@ color: blue;
     height: 60px;
     border-radius: 50%;
         background: 
- color-mix(in srgb, #ffffff, transparent 80%);
+ color-mix(in srgb, #0b1ae9, transparent 80%);
     color: blue;
     font-size: 30px;
 }
@@ -1025,7 +1291,8 @@ color: blue;
 .pricelast1{
     width: 200px;
     height: 50px;
-    background-color: rgb(221, 215, 215);
+        background-color: 
+ color-mix(in srgb, 4a4b64, transparent 95%);
     border-radius: 50px;
     font-size: 20px;
     border: none;
