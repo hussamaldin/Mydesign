@@ -1,9 +1,20 @@
 * {
   box-sizing: border-box;
+  
+}
+html{
+    width: 100%;
+    position: relative;
 }
 body{
     background-color: #ffffff;
     margin: 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.main{
+    width: 100%;
 }
 .navname{
     text-decoration: none;
@@ -15,6 +26,7 @@ body{
     background-color: rgb(30, 30, 223);
 }
 .navbar{
+    width: 100%;
     display: flex;
     padding: 20px 0;
     position: fixed;
@@ -56,11 +68,18 @@ body{
     display: none;
 }
 @media only screen and (max-width:576px) {
+    
+    .navbar{
+        width: 86.5%;
+        
+    }
     .navname{
         font-size: 18px;
 
     }
     .navmain{
+        width: 100%;
+    
         padding: 8px 10px;
         margin-left: 10px;
         margin-right: 10px;
@@ -90,13 +109,13 @@ body{
     align-items: center;
 }
 #gets{
-    width: 42%;
+    width: 53%;
     padding: 16px 30px;
     margin-bottom: 12px;
 }
 #view{
     padding: 14px 32px;
-    width: 38%;
+    width: 43%;
     font-weight: 500;
 }
 .tro{
@@ -322,6 +341,7 @@ font-size: 15px;
 @media only screen and (max-width: 992px) {
     .navmain{
     display:flex;
+    width: 100%;
     align-items: center; 
 }
     .navmainh{
