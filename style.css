@@ -70,7 +70,7 @@ body{
 @media only screen and (max-width:576px) {
     
     .navbar{
-        width: 86.5%;
+        width: 100%;
         
     }
     .navname{
@@ -79,7 +79,6 @@ body{
     }
     .navmain{
         width: 100%;
-    
         padding: 8px 10px;
         margin-left: 10px;
         margin-right: 10px;
@@ -109,13 +108,13 @@ body{
     align-items: center;
 }
 #gets{
-    width: 53%;
+    width: 55%;
     padding: 16px 30px;
     margin-bottom: 12px;
 }
 #view{
     padding: 14px 32px;
-    width: 43%;
+    width: 48%;
     font-weight: 500;
 }
 .tro{
@@ -123,7 +122,8 @@ body{
     align-items: center;
 }
 .tro .torphy1{
-    background-color: #f0e8e8;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 12px 2px lightblue;
 }
 .pic{
     margin-bottom: 48px;
@@ -335,7 +335,8 @@ font-size: 15px;
 }
     .footermid .footermid2 {
         justify-content: center;
-        gap: 32px;
+        overflow: hidden;
+        gap: 11px;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -478,6 +479,8 @@ margin: 2px;
 }
 }
 .myname{
+    background: radial-gradient(ellipse at center,
+ color-mix(in srgb, #0b1ae9, transparent 96%) 0%, #ffffff 70%);
     padding-top: 220px;
     padding-bottom: 100px;
 }
