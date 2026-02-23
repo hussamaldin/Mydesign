@@ -10,28 +10,28 @@ window.addEventListener('scroll', () => {
 
   for (y = 0; y < fadeleft.length; y++) {
     let placeitem=fadeleft[y].getBoundingClientRect().top;
-     if (placeitem<= 470) {
+     if (placeitem<= 490) {
       fadeleft[y].classList.add("animate__animated" ,"animate__fadeInLeft" ,"animate__fast") 
     fadeleft[y].classList.add("is-visible");
   }
   }
     for (y = 0; y < faderight.length; y++) {
     let placeitem=faderight[y].getBoundingClientRect().top;
-     if (placeitem<= 470) {
+     if (placeitem<= 490) {
       faderight[y].classList.add("animate__animated" ,"animate__fadeInRight" ,"animate__fast") 
     faderight[y].classList.add("is-visible");
   }
   }
       for (y = 0; y < fadeup.length; y++) {
     let placeitem=fadeup[y].getBoundingClientRect().top;
-     if (placeitem<= 470) {
+     if (placeitem<= 490) {
       fadeup[y].classList.add("animate__animated" ,"animate__fadeInUp" ,"animate__fast") 
     fadeup[y].classList.add("is-visible");
   }
   }
       for (y = 0; y < zoomin.length; y++) {
     let placeitem=zoomin[y].getBoundingClientRect().top;
-     if (placeitem<= 470) {
+     if (placeitem<= 490) {
       zoomin[y].classList.add("animate__animated" ,"animate__zoomIn" ,"animate__fast") 
     zoomin[y].classList.add("is-visible");
   }

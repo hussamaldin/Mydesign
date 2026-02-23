@@ -338,6 +338,9 @@ font-size: 15px;
         overflow: hidden;
         gap: 11px;
     }
+    form .form-control{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 992px) {
     .navmain{
